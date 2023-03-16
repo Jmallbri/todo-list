@@ -53,7 +53,10 @@ public class ToDoListCLI {
                     for (Task task : tasks) {
                         System.out.println(task);
 
+
                     }
+                    System.out.println("-----------------------------------");
+
                     break;
                 case 2:
                     System.out.print("Enter task description: ");
